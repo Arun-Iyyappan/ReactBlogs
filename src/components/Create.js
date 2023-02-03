@@ -49,7 +49,7 @@ const Create = () => {
           onChange={(e) => setAuthor(e.target.value)}
         />
         {!isPending && <button>Add Blog</button>}
-        {isPending && <button disabled>Adding Blog.....</button>}
+        {isPending && <button disabled>Adding Blog....</button>}
       </form>
     </div>
   );
